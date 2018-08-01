@@ -59,6 +59,9 @@
 		D5A229E221123B09000A4C0F /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A229E121123B09000A4C0F /* Resources.swift */; };
 		D5A229E321123B09000A4C0F /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A229E121123B09000A4C0F /* Resources.swift */; };
 		D5A229E421123B09000A4C0F /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A229E121123B09000A4C0F /* Resources.swift */; };
+		D5A229E621123E37000A4C0F /* WikiPageWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A229E521123E37000A4C0F /* WikiPageWebViewController.swift */; };
+		D5A229E721123E37000A4C0F /* WikiPageWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A229E521123E37000A4C0F /* WikiPageWebViewController.swift */; };
+		D5A229E821123E37000A4C0F /* WikiPageWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A229E521123E37000A4C0F /* WikiPageWebViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -107,6 +110,7 @@
 		D5A229D921122B7C000A4C0F /* ImageDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
 		D5A229DD21123AEC000A4C0F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		D5A229E121123B09000A4C0F /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
+		D5A229E521123E37000A4C0F /* WikiPageWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikiPageWebViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -283,6 +287,7 @@
 			isa = PBXGroup;
 			children = (
 				D540151A2110C5C50006AC7A /* SearchViewController.swift */,
+				D5A229E521123E37000A4C0F /* WikiPageWebViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -470,6 +475,7 @@
 				D54015232110CD770006AC7A /* WikiDataProvider.swift in Sources */,
 				D54014E32110B21A0006AC7A /* MyWikipedia.xcdatamodeld in Sources */,
 				D54015272110CE1B0006AC7A /* NetworkRequestManager.swift in Sources */,
+				D5A229E621123E37000A4C0F /* WikiPageWebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,6 +491,7 @@
 				D54014F32110B21C0006AC7A /* MyWikipediaTests.swift in Sources */,
 				D540152C2110CEA50006AC7A /* WikiSearchAPI.swift in Sources */,
 				D54015202110CC690006AC7A /* WikiData.swift in Sources */,
+				D5A229E721123E37000A4C0F /* WikiPageWebViewController.swift in Sources */,
 				D5A229C321120D06000A4C0F /* BaseTableViewCellProtocol.swift in Sources */,
 				D5A229D721122790000A4C0F /* ImageRepository.swift in Sources */,
 				D54015282110CE1B0006AC7A /* NetworkRequestManager.swift in Sources */,
@@ -507,6 +514,7 @@
 				D54014FE2110B21C0006AC7A /* MyWikipediaUITests.swift in Sources */,
 				D540152D2110CEA50006AC7A /* WikiSearchAPI.swift in Sources */,
 				D54015212110CC690006AC7A /* WikiData.swift in Sources */,
+				D5A229E821123E37000A4C0F /* WikiPageWebViewController.swift in Sources */,
 				D5A229C421120D06000A4C0F /* BaseTableViewCellProtocol.swift in Sources */,
 				D5A229D821122790000A4C0F /* ImageRepository.swift in Sources */,
 				D54015292110CE1B0006AC7A /* NetworkRequestManager.swift in Sources */,

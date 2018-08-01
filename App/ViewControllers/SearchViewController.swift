@@ -8,6 +8,10 @@
 
 import UIKit
 
+enum SegueIdentifiers: String {
+    case Details = "details"
+}
+
 class SearchViewController: UIViewController {
 
     //IBOutlets
@@ -110,6 +114,25 @@ extension SearchViewController: UITableViewDelegate, UITableViewDataSource {
         
         return wikiDataCell
     }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let wikiData = arrWikiData[indexPath.row]
+        let url = "http://en.wikipedia.org/?curid=\(wikiData.pageId)"
+        self.performSegue(withIdentifier: SegueIdentifiers.Details.rawValue, sender: url)
+    }
 }
+
+
+// MARK: - Navigation
+extension SearchViewController {
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == SegueIdentifiers.Details.rawValue {
+            if let wikiDetailViewController = segue.destination as? WikiPageWebViewController {
+                wikiDetailViewController.urlString = sender as? String
+            }
+        }
+    }
+}
+
 
 

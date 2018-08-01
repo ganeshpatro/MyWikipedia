@@ -40,11 +40,46 @@
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
                     <connections>
                         <outlet property="tblViewSearchWiki" destination="Kf4-gt-N34" id="0qb-4p-UQ9"/>
+                        <segue destination="IfA-pQ-Ipm" kind="show" identifier="details" id="iDs-tS-AdF"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1000.8" y="-397.15142428785612"/>
+        </scene>
+        <!--Wiki Page Web View Controller-->
+        <scene sceneID="Ot5-CT-tjq">
+            <objects>
+                <viewController id="IfA-pQ-Ipm" customClass="WikiPageWebViewController" customModule="MyWikipedia" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ynM-dX-iNv">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GlX-ag-crp">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="GlX-ag-crp" firstAttribute="bottom" secondItem="yHk-AA-KH3" secondAttribute="bottom" id="7tG-pb-vKG"/>
+                            <constraint firstItem="GlX-ag-crp" firstAttribute="leading" secondItem="yHk-AA-KH3" secondAttribute="leading" id="QRT-Ku-Idn"/>
+                            <constraint firstItem="GlX-ag-crp" firstAttribute="top" secondItem="yHk-AA-KH3" secondAttribute="top" id="kLS-e4-mGA"/>
+                            <constraint firstItem="GlX-ag-crp" firstAttribute="trailing" secondItem="yHk-AA-KH3" secondAttribute="trailing" id="sPo-IF-wp4"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="yHk-AA-KH3"/>
+                    </view>
+                    <connections>
+                        <outlet property="webView" destination="GlX-ag-crp" id="1bN-Nr-9TG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dOE-rg-Iud" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1684" y="-400.74962518740631"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="I2x-GK-VjD">

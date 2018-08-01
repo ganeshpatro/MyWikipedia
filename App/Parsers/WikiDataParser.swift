@@ -28,7 +28,8 @@ class WikiDataParser: NSObject {
                     imageSource = thumbanil["source"] as? String
                 }
                 
-                let wikiData = WikiData(title: title, Desription: description, thumbanil: imageSource)
+                let pageId = String.init(pageDict["pageid"] as! Int)
+                let wikiData = WikiData(title: title, Desription: description, thumbanil: imageSource, pageId: pageId)
                 arrWikiData.append(wikiData)
             }
         }        

@@ -12,4 +12,5 @@ struct WikiData {
     let title: String
     let Desription: String?
     let thumbanil: String?
+    let pageId: String
 }
