@@ -7,14 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D53C3DE82110DD8700DA12A2 /* WikiDataParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53C3DE72110DD8700DA12A2 /* WikiDataParser.swift */; };
+		D53C3DE92110DD8700DA12A2 /* WikiDataParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53C3DE72110DD8700DA12A2 /* WikiDataParser.swift */; };
+		D53C3DEA2110DD8700DA12A2 /* WikiDataParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53C3DE72110DD8700DA12A2 /* WikiDataParser.swift */; };
 		D54014DB2110B21A0006AC7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54014DA2110B21A0006AC7A /* AppDelegate.swift */; };
-		D54014DD2110B21A0006AC7A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54014DC2110B21A0006AC7A /* ViewController.swift */; };
 		D54014E02110B21A0006AC7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D54014DE2110B21A0006AC7A /* Main.storyboard */; };
 		D54014E32110B21A0006AC7A /* MyWikipedia.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D54014E12110B21A0006AC7A /* MyWikipedia.xcdatamodeld */; };
 		D54014E52110B21C0006AC7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D54014E42110B21C0006AC7A /* Assets.xcassets */; };
 		D54014E82110B21C0006AC7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D54014E62110B21C0006AC7A /* LaunchScreen.storyboard */; };
 		D54014F32110B21C0006AC7A /* MyWikipediaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54014F22110B21C0006AC7A /* MyWikipediaTests.swift */; };
 		D54014FE2110B21C0006AC7A /* MyWikipediaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54014FD2110B21C0006AC7A /* MyWikipediaUITests.swift */; };
+		D54015172110C5510006AC7A /* BaseViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54015162110C5510006AC7A /* BaseViewControllerProtocol.swift */; };
+		D54015182110C5510006AC7A /* BaseViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54015162110C5510006AC7A /* BaseViewControllerProtocol.swift */; };
+		D54015192110C5510006AC7A /* BaseViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54015162110C5510006AC7A /* BaseViewControllerProtocol.swift */; };
+		D540151B2110C5C50006AC7A /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D540151A2110C5C50006AC7A /* SearchViewController.swift */; };
+		D540151C2110C5C50006AC7A /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D540151A2110C5C50006AC7A /* SearchViewController.swift */; };
+		D540151D2110C5C50006AC7A /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D540151A2110C5C50006AC7A /* SearchViewController.swift */; };
+		D540151F2110CC690006AC7A /* WikiData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D540151E2110CC690006AC7A /* WikiData.swift */; };
+		D54015202110CC690006AC7A /* WikiData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D540151E2110CC690006AC7A /* WikiData.swift */; };
+		D54015212110CC690006AC7A /* WikiData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D540151E2110CC690006AC7A /* WikiData.swift */; };
+		D54015232110CD770006AC7A /* WikiDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54015222110CD770006AC7A /* WikiDataProvider.swift */; };
+		D54015242110CD770006AC7A /* WikiDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54015222110CD770006AC7A /* WikiDataProvider.swift */; };
+		D54015252110CD770006AC7A /* WikiDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54015222110CD770006AC7A /* WikiDataProvider.swift */; };
+		D54015272110CE1B0006AC7A /* NetworkRequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54015262110CE1B0006AC7A /* NetworkRequestManager.swift */; };
+		D54015282110CE1B0006AC7A /* NetworkRequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54015262110CE1B0006AC7A /* NetworkRequestManager.swift */; };
+		D54015292110CE1B0006AC7A /* NetworkRequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54015262110CE1B0006AC7A /* NetworkRequestManager.swift */; };
+		D540152B2110CEA50006AC7A /* WikiSearchAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D540152A2110CEA50006AC7A /* WikiSearchAPI.swift */; };
+		D540152C2110CEA50006AC7A /* WikiSearchAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D540152A2110CEA50006AC7A /* WikiSearchAPI.swift */; };
+		D540152D2110CEA50006AC7A /* WikiSearchAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D540152A2110CEA50006AC7A /* WikiSearchAPI.swift */; };
+		D5A229C221120D06000A4C0F /* BaseTableViewCellProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A229C121120D06000A4C0F /* BaseTableViewCellProtocol.swift */; };
+		D5A229C321120D06000A4C0F /* BaseTableViewCellProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A229C121120D06000A4C0F /* BaseTableViewCellProtocol.swift */; };
+		D5A229C421120D06000A4C0F /* BaseTableViewCellProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A229C121120D06000A4C0F /* BaseTableViewCellProtocol.swift */; };
+		D5A229C821120F34000A4C0F /* WikiDataCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A229C621120F34000A4C0F /* WikiDataCell.swift */; };
+		D5A229C921120F34000A4C0F /* WikiDataCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A229C621120F34000A4C0F /* WikiDataCell.swift */; };
+		D5A229CA21120F34000A4C0F /* WikiDataCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A229C621120F34000A4C0F /* WikiDataCell.swift */; };
+		D5A229CB21120F34000A4C0F /* WikiDataCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5A229C721120F34000A4C0F /* WikiDataCell.xib */; };
+		D5A229CC21120F34000A4C0F /* WikiDataCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5A229C721120F34000A4C0F /* WikiDataCell.xib */; };
+		D5A229CD21120F34000A4C0F /* WikiDataCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5A229C721120F34000A4C0F /* WikiDataCell.xib */; };
+		D5A229D021121AB9000A4C0F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A229CF21121AB9000A4C0F /* Extensions.swift */; };
+		D5A229D121121AB9000A4C0F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A229CF21121AB9000A4C0F /* Extensions.swift */; };
+		D5A229D221121AB9000A4C0F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A229CF21121AB9000A4C0F /* Extensions.swift */; };
+		D5A229D621122790000A4C0F /* ImageRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A229D521122790000A4C0F /* ImageRepository.swift */; };
+		D5A229D721122790000A4C0F /* ImageRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A229D521122790000A4C0F /* ImageRepository.swift */; };
+		D5A229D821122790000A4C0F /* ImageRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A229D521122790000A4C0F /* ImageRepository.swift */; };
+		D5A229DA21122B7C000A4C0F /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A229D921122B7C000A4C0F /* ImageDownloader.swift */; };
+		D5A229DB21122B7C000A4C0F /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A229D921122B7C000A4C0F /* ImageDownloader.swift */; };
+		D5A229DC21122B7C000A4C0F /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A229D921122B7C000A4C0F /* ImageDownloader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +73,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D53C3DE72110DD8700DA12A2 /* WikiDataParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikiDataParser.swift; sourceTree = "<group>"; };
 		D54014D72110B21A0006AC7A /* MyWikipedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyWikipedia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D54014DA2110B21A0006AC7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D54014DC2110B21A0006AC7A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D54014DF2110B21A0006AC7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D54014E22110B21A0006AC7A /* MyWikipedia.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyWikipedia.xcdatamodel; sourceTree = "<group>"; };
 		D54014E42110B21C0006AC7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +87,18 @@
 		D54014F92110B21C0006AC7A /* MyWikipediaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyWikipediaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D54014FD2110B21C0006AC7A /* MyWikipediaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWikipediaUITests.swift; sourceTree = "<group>"; };
 		D54014FF2110B21C0006AC7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D54015162110C5510006AC7A /* BaseViewControllerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewControllerProtocol.swift; sourceTree = "<group>"; };
+		D540151A2110C5C50006AC7A /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		D540151E2110CC690006AC7A /* WikiData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikiData.swift; sourceTree = "<group>"; };
+		D54015222110CD770006AC7A /* WikiDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikiDataProvider.swift; sourceTree = "<group>"; };
+		D54015262110CE1B0006AC7A /* NetworkRequestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequestManager.swift; sourceTree = "<group>"; };
+		D540152A2110CEA50006AC7A /* WikiSearchAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikiSearchAPI.swift; sourceTree = "<group>"; };
+		D5A229C121120D06000A4C0F /* BaseTableViewCellProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewCellProtocol.swift; sourceTree = "<group>"; };
+		D5A229C621120F34000A4C0F /* WikiDataCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikiDataCell.swift; sourceTree = "<group>"; };
+		D5A229C721120F34000A4C0F /* WikiDataCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WikiDataCell.xib; sourceTree = "<group>"; };
+		D5A229CF21121AB9000A4C0F /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		D5A229D521122790000A4C0F /* ImageRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageRepository.swift; sourceTree = "<group>"; };
+		D5A229D921122B7C000A4C0F /* ImageDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +149,8 @@
 		D54014D92110B21A0006AC7A /* MyWikipedia */ = {
 			isa = PBXGroup;
 			children = (
+				D540150B2110BFEA0006AC7A /* App */,
 				D54014DA2110B21A0006AC7A /* AppDelegate.swift */,
-				D54014DC2110B21A0006AC7A /* ViewController.swift */,
 				D54014DE2110B21A0006AC7A /* Main.storyboard */,
 				D54014E42110B21C0006AC7A /* Assets.xcassets */,
 				D54014E62110B21C0006AC7A /* LaunchScreen.storyboard */,
@@ -126,6 +176,146 @@
 				D54014FF2110B21C0006AC7A /* Info.plist */,
 			);
 			path = MyWikipediaUITests;
+			sourceTree = "<group>";
+		};
+		D540150B2110BFEA0006AC7A /* App */ = {
+			isa = PBXGroup;
+			children = (
+				D540150C2110BFEA0006AC7A /* Constants */,
+				D540150D2110BFEA0006AC7A /* Views */,
+				D540150E2110BFEA0006AC7A /* Models */,
+				D540150F2110BFEA0006AC7A /* Network Communication */,
+				D54015102110BFEA0006AC7A /* Parsers */,
+				D54015112110BFEA0006AC7A /* Protocols */,
+				D54015122110BFEA0006AC7A /* Providers */,
+				D54015132110BFEA0006AC7A /* Resources */,
+				D54015142110BFEA0006AC7A /* Utils */,
+				D54015152110BFEA0006AC7A /* ViewControllers */,
+			);
+			path = App;
+			sourceTree = SOURCE_ROOT;
+		};
+		D540150C2110BFEA0006AC7A /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		D540150D2110BFEA0006AC7A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D5A229C521120F07000A4C0F /* Cells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D540150E2110BFEA0006AC7A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D540151E2110CC690006AC7A /* WikiData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D540150F2110BFEA0006AC7A /* Network Communication */ = {
+			isa = PBXGroup;
+			children = (
+				D54015262110CE1B0006AC7A /* NetworkRequestManager.swift */,
+				D540152A2110CEA50006AC7A /* WikiSearchAPI.swift */,
+			);
+			path = "Network Communication";
+			sourceTree = "<group>";
+		};
+		D54015102110BFEA0006AC7A /* Parsers */ = {
+			isa = PBXGroup;
+			children = (
+				D53C3DE72110DD8700DA12A2 /* WikiDataParser.swift */,
+			);
+			path = Parsers;
+			sourceTree = "<group>";
+		};
+		D54015112110BFEA0006AC7A /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				D54015162110C5510006AC7A /* BaseViewControllerProtocol.swift */,
+				D5A229C121120D06000A4C0F /* BaseTableViewCellProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		D54015122110BFEA0006AC7A /* Providers */ = {
+			isa = PBXGroup;
+			children = (
+				D54015222110CD770006AC7A /* WikiDataProvider.swift */,
+			);
+			path = Providers;
+			sourceTree = "<group>";
+		};
+		D54015132110BFEA0006AC7A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D54015142110BFEA0006AC7A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D5A229D42112275F000A4C0F /* ImgeRepository */,
+				D5A229D321122751000A4C0F /* ImageDownloader */,
+				D5A229CE21121AA4000A4C0F /* Extensions */,
+				D540152E2110CEC10006AC7A /* Constants */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		D54015152110BFEA0006AC7A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D540151A2110C5C50006AC7A /* SearchViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D540152E2110CEC10006AC7A /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		D5A229C521120F07000A4C0F /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				D5A229C621120F34000A4C0F /* WikiDataCell.swift */,
+				D5A229C721120F34000A4C0F /* WikiDataCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		D5A229CE21121AA4000A4C0F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D5A229CF21121AB9000A4C0F /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D5A229D321122751000A4C0F /* ImageDownloader */ = {
+			isa = PBXGroup;
+			children = (
+				D5A229D921122B7C000A4C0F /* ImageDownloader.swift */,
+			);
+			path = ImageDownloader;
+			sourceTree = "<group>";
+		};
+		D5A229D42112275F000A4C0F /* ImgeRepository */ = {
+			isa = PBXGroup;
+			children = (
+				D5A229D521122790000A4C0F /* ImageRepository.swift */,
+			);
+			path = ImgeRepository;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +425,7 @@
 				D54014E82110B21C0006AC7A /* LaunchScreen.storyboard in Resources */,
 				D54014E52110B21C0006AC7A /* Assets.xcassets in Resources */,
 				D54014E02110B21A0006AC7A /* Main.storyboard in Resources */,
+				D5A229CB21120F34000A4C0F /* WikiDataCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +433,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5A229CC21120F34000A4C0F /* WikiDataCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +441,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5A229CD21120F34000A4C0F /* WikiDataCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,9 +452,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D54014DD2110B21A0006AC7A /* ViewController.swift in Sources */,
+				D540151B2110C5C50006AC7A /* SearchViewController.swift in Sources */,
+				D53C3DE82110DD8700DA12A2 /* WikiDataParser.swift in Sources */,
+				D5A229DA21122B7C000A4C0F /* ImageDownloader.swift in Sources */,
 				D54014DB2110B21A0006AC7A /* AppDelegate.swift in Sources */,
+				D5A229C821120F34000A4C0F /* WikiDataCell.swift in Sources */,
+				D540152B2110CEA50006AC7A /* WikiSearchAPI.swift in Sources */,
+				D5A229C221120D06000A4C0F /* BaseTableViewCellProtocol.swift in Sources */,
+				D54015172110C5510006AC7A /* BaseViewControllerProtocol.swift in Sources */,
+				D5A229D621122790000A4C0F /* ImageRepository.swift in Sources */,
+				D5A229D021121AB9000A4C0F /* Extensions.swift in Sources */,
+				D540151F2110CC690006AC7A /* WikiData.swift in Sources */,
+				D54015232110CD770006AC7A /* WikiDataProvider.swift in Sources */,
 				D54014E32110B21A0006AC7A /* MyWikipedia.xcdatamodeld in Sources */,
+				D54015272110CE1B0006AC7A /* NetworkRequestManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +473,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D540151C2110C5C50006AC7A /* SearchViewController.swift in Sources */,
+				D54015182110C5510006AC7A /* BaseViewControllerProtocol.swift in Sources */,
+				D5A229DB21122B7C000A4C0F /* ImageDownloader.swift in Sources */,
+				D53C3DE92110DD8700DA12A2 /* WikiDataParser.swift in Sources */,
 				D54014F32110B21C0006AC7A /* MyWikipediaTests.swift in Sources */,
+				D540152C2110CEA50006AC7A /* WikiSearchAPI.swift in Sources */,
+				D54015202110CC690006AC7A /* WikiData.swift in Sources */,
+				D5A229C321120D06000A4C0F /* BaseTableViewCellProtocol.swift in Sources */,
+				D5A229D721122790000A4C0F /* ImageRepository.swift in Sources */,
+				D54015282110CE1B0006AC7A /* NetworkRequestManager.swift in Sources */,
+				D54015242110CD770006AC7A /* WikiDataProvider.swift in Sources */,
+				D5A229D121121AB9000A4C0F /* Extensions.swift in Sources */,
+				D5A229C921120F34000A4C0F /* WikiDataCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +493,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D540151D2110C5C50006AC7A /* SearchViewController.swift in Sources */,
+				D54015192110C5510006AC7A /* BaseViewControllerProtocol.swift in Sources */,
+				D5A229DC21122B7C000A4C0F /* ImageDownloader.swift in Sources */,
+				D53C3DEA2110DD8700DA12A2 /* WikiDataParser.swift in Sources */,
 				D54014FE2110B21C0006AC7A /* MyWikipediaUITests.swift in Sources */,
+				D540152D2110CEA50006AC7A /* WikiSearchAPI.swift in Sources */,
+				D54015212110CC690006AC7A /* WikiData.swift in Sources */,
+				D5A229C421120D06000A4C0F /* BaseTableViewCellProtocol.swift in Sources */,
+				D5A229D821122790000A4C0F /* ImageRepository.swift in Sources */,
+				D54015292110CE1B0006AC7A /* NetworkRequestManager.swift in Sources */,
+				D54015252110CD770006AC7A /* WikiDataProvider.swift in Sources */,
+				D5A229D221121AB9000A4C0F /* Extensions.swift in Sources */,
+				D5A229CA21120F34000A4C0F /* WikiDataCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +665,7 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MyWikipedia/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -456,6 +685,7 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MyWikipedia/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
