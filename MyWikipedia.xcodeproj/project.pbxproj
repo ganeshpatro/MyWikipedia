@@ -53,6 +53,12 @@
 		D5A229DA21122B7C000A4C0F /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A229D921122B7C000A4C0F /* ImageDownloader.swift */; };
 		D5A229DB21122B7C000A4C0F /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A229D921122B7C000A4C0F /* ImageDownloader.swift */; };
 		D5A229DC21122B7C000A4C0F /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A229D921122B7C000A4C0F /* ImageDownloader.swift */; };
+		D5A229DE21123AEC000A4C0F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A229DD21123AEC000A4C0F /* Constants.swift */; };
+		D5A229DF21123AEC000A4C0F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A229DD21123AEC000A4C0F /* Constants.swift */; };
+		D5A229E021123AEC000A4C0F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A229DD21123AEC000A4C0F /* Constants.swift */; };
+		D5A229E221123B09000A4C0F /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A229E121123B09000A4C0F /* Resources.swift */; };
+		D5A229E321123B09000A4C0F /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A229E121123B09000A4C0F /* Resources.swift */; };
+		D5A229E421123B09000A4C0F /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A229E121123B09000A4C0F /* Resources.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,6 +105,8 @@
 		D5A229CF21121AB9000A4C0F /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		D5A229D521122790000A4C0F /* ImageRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageRepository.swift; sourceTree = "<group>"; };
 		D5A229D921122B7C000A4C0F /* ImageDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
+		D5A229DD21123AEC000A4C0F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D5A229E121123B09000A4C0F /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -198,6 +206,7 @@
 		D540150C2110BFEA0006AC7A /* Constants */ = {
 			isa = PBXGroup;
 			children = (
+				D5A229DD21123AEC000A4C0F /* Constants.swift */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -255,6 +264,7 @@
 		D54015132110BFEA0006AC7A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				D5A229E121123B09000A4C0F /* Resources.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -265,7 +275,6 @@
 				D5A229D42112275F000A4C0F /* ImgeRepository */,
 				D5A229D321122751000A4C0F /* ImageDownloader */,
 				D5A229CE21121AA4000A4C0F /* Extensions */,
-				D540152E2110CEC10006AC7A /* Constants */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -276,13 +285,6 @@
 				D540151A2110C5C50006AC7A /* SearchViewController.swift */,
 			);
 			path = ViewControllers;
-			sourceTree = "<group>";
-		};
-		D540152E2110CEC10006AC7A /* Constants */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Constants;
 			sourceTree = "<group>";
 		};
 		D5A229C521120F07000A4C0F /* Cells */ = {
@@ -457,6 +459,8 @@
 				D5A229DA21122B7C000A4C0F /* ImageDownloader.swift in Sources */,
 				D54014DB2110B21A0006AC7A /* AppDelegate.swift in Sources */,
 				D5A229C821120F34000A4C0F /* WikiDataCell.swift in Sources */,
+				D5A229E221123B09000A4C0F /* Resources.swift in Sources */,
+				D5A229DE21123AEC000A4C0F /* Constants.swift in Sources */,
 				D540152B2110CEA50006AC7A /* WikiSearchAPI.swift in Sources */,
 				D5A229C221120D06000A4C0F /* BaseTableViewCellProtocol.swift in Sources */,
 				D54015172110C5510006AC7A /* BaseViewControllerProtocol.swift in Sources */,
@@ -476,6 +480,7 @@
 				D540151C2110C5C50006AC7A /* SearchViewController.swift in Sources */,
 				D54015182110C5510006AC7A /* BaseViewControllerProtocol.swift in Sources */,
 				D5A229DB21122B7C000A4C0F /* ImageDownloader.swift in Sources */,
+				D5A229E321123B09000A4C0F /* Resources.swift in Sources */,
 				D53C3DE92110DD8700DA12A2 /* WikiDataParser.swift in Sources */,
 				D54014F32110B21C0006AC7A /* MyWikipediaTests.swift in Sources */,
 				D540152C2110CEA50006AC7A /* WikiSearchAPI.swift in Sources */,
@@ -484,6 +489,7 @@
 				D5A229D721122790000A4C0F /* ImageRepository.swift in Sources */,
 				D54015282110CE1B0006AC7A /* NetworkRequestManager.swift in Sources */,
 				D54015242110CD770006AC7A /* WikiDataProvider.swift in Sources */,
+				D5A229DF21123AEC000A4C0F /* Constants.swift in Sources */,
 				D5A229D121121AB9000A4C0F /* Extensions.swift in Sources */,
 				D5A229C921120F34000A4C0F /* WikiDataCell.swift in Sources */,
 			);
@@ -496,6 +502,7 @@
 				D540151D2110C5C50006AC7A /* SearchViewController.swift in Sources */,
 				D54015192110C5510006AC7A /* BaseViewControllerProtocol.swift in Sources */,
 				D5A229DC21122B7C000A4C0F /* ImageDownloader.swift in Sources */,
+				D5A229E421123B09000A4C0F /* Resources.swift in Sources */,
 				D53C3DEA2110DD8700DA12A2 /* WikiDataParser.swift in Sources */,
 				D54014FE2110B21C0006AC7A /* MyWikipediaUITests.swift in Sources */,
 				D540152D2110CEA50006AC7A /* WikiSearchAPI.swift in Sources */,
@@ -504,6 +511,7 @@
 				D5A229D821122790000A4C0F /* ImageRepository.swift in Sources */,
 				D54015292110CE1B0006AC7A /* NetworkRequestManager.swift in Sources */,
 				D54015252110CD770006AC7A /* WikiDataProvider.swift in Sources */,
+				D5A229E021123AEC000A4C0F /* Constants.swift in Sources */,
 				D5A229D221121AB9000A4C0F /* Extensions.swift in Sources */,
 				D5A229CA21120F34000A4C0F /* WikiDataCell.swift in Sources */,
 			);
